@@ -1,0 +1,127 @@
+body{
+    font-family: sans-serif;
+    cursor: url("img copie/curseur.png"), pointer;
+    cursor: progress, auto;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: start;
+    gap:10px;
+}
+
+.header-title{
+    .palette-mosaic-regular {
+        font-family: "Palette Mosaic", system-ui;
+        font-weight: 50;
+        font-style: normal;
+      }
+}
+
+img{
+    max-width:100%;
+    height:auto;
+    display: block;
+}
+
+.item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+.header{
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: max-content max-content;
+    justify-content: space-between;
+    align-items: center;
+    /*border: 5px solid pink;
+    margin-bottom: 20px;
+    border-bottom: 30px solid pink;
+    padding-bottom: 20px;*/
+}
+
+.header-title{
+    background-color: rgb(255, 255, 255);
+}
+
+.header-nav{
+    background-color:rgb(255, 255, 255);
+}
+
+.index .grid{
+    display: grid;
+    max-width: 100%; 
+    margin:50px;
+    grid-template-columns: repeat(auto-fit, minmax (320px, 1fr));
+    justify-content: center;
+    align-items:baseline;
+    gap: 10px;
+    padding: 10px;
+    grid-column: 2;
+    grid-row: 2;
+
+    .projet .categorie{
+        background-color: rgb(255, 255, 255);
+        grid-column: span 2;
+    }
+
+.edition .grid{
+    display: grid;
+    max-width: 400px; 
+    height:fit-content
+    display block; color:#848FA5;
+    margin: center;
+    background-color: #ffffff;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    gap:10px;
+    grid-column: 2;
+    grid-row: 2;
+    object-fit: cover;
+
+}
+
+.balance {
+    text-wrap: balance;
+}
+    /*grid-template-columns:1fr 1fr;*/
+
+.footer {
+    background-color: rgb(0, 0, 0);
+    justify-content:center;
+    margin:center;
+    position: sticky;
+
+    
+}
+.item{
+    display:grid;
+    width:fit-content; /* selon votre maquette */
+    background: #ffffff;
+    text-decoration: none;
+    
+  }
+  
+  .item>*{
+    grid-column: 2;
+    grid-row:2;
+    justify-self:center;
+    align-self:center;
+    color:#000000;
+    transition:0.3s;
+  }
+  .item p{
+    font-size: 22px;
+    opacity:0;
+  }
+  .item:hover img{
+    opacity:0;
+  }
+  .item:hover p{
+    opacity:1;
+  }
+
+}
