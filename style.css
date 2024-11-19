@@ -121,12 +121,24 @@ img{
     color:#000000;
     margin: 0 auto;
     /* background-color: #FBF5F3; */
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(1, minmax(400px, 1fr));
     justify-content: center;
     gap:10px;
     /* grid-column: 3;
     grid-row: 2; */
     
+}
+
+@media  (min-width:820px) {
+    .projet .grid{
+        grid-template-columns: repeat(2, minmax(400px, 1fr));
+
+    }
+}
+@media  (min-width:1220px) {
+    .projet .grid{
+        grid-template-columns: repeat(3, minmax(400px, 1fr));
+    }
 }
 
 .projet2 .grid{
