@@ -141,10 +141,6 @@ img{
     }
 }
 
-@media  (max-width:1920px) {
-    .projet .grid{
-        grid-template-columns: repeat(3, minmax(400px, 1fr));
-    }
     
 .projet2 .grid{
     display: grid;
