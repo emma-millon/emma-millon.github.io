@@ -22,7 +22,7 @@ body{
     padding-right:200px;
     padding-left: 150px;
     line-height: 1.3;
-    font-family:"Chelsea Market" ;
+    font-family:"Host Grotesk" ;
     
 }
 
@@ -33,7 +33,7 @@ video {
 }
 
 .header-title {
-    font-family: "Meera Inimai", Arial, Helvetica, sans-serif;
+    font-family: "Host Grotesk", Arial, Helvetica, sans-serif;
     font-size: 40px;
     font-style: normal;
     color:#3FA9F5;
@@ -41,7 +41,7 @@ video {
      }
 
 .header-nav{
-    font-family: "Meera Inimai", Arial, Helvetica, sans-serif;
+    font-family: "Host Grotesk", Arial, Helvetica, sans-serif;
         font-size: 30px;
         font-style: normal;
         color:#000000;
@@ -54,7 +54,7 @@ video {
 
 .header-title2 {
 
-        font-family: "Meera Inimai", Arial, Helvetica, sans-serif;
+        font-family: "Host Grotesk", Arial, Helvetica, sans-serif;
         font-size: 30px;
         font-style: normal;
         color:#3FA9F5;
